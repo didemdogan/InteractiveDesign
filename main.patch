@@ -1,0 +1,15 @@
+Index: app/src/main/java/didem/interactivedesign/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/didem/interactivedesign/MainActivity.java	(revision a9e3b6cfc662a06cca0941be85eabfef2f72914d)
++++ app/src/main/java/didem/interactivedesign/MainActivity.java	(revision )
+@@ -8,6 +8,7 @@
+     @Override
+     protected void onCreate(Bundle savedInstanceState) {
+         super.onCreate(savedInstanceState);
++
+         setContentView(R.layout.activity_main);
+     }
+ }
